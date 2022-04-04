@@ -1,3 +1,8 @@
-const app = require('./');
+const app = require("./");
 
-app.listen(3333);
+const PORT = 3333;
+
+app.listen(PORT);
+console.log(
+  `\n\nThe server is up and running on port ${PORT}\n\http://localhost:${3333}/\n\n`
+);
